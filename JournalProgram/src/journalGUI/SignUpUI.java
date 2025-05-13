@@ -32,7 +32,7 @@ public class SignUpUI extends Application{
 		System.out.println("Redirect to Sign-Up Page.");
 		
 		// Setting the background of sign-up page
-		Image backgroundImage = new Image("file:/C:/Users/zoele/Downloads/library.jpg");
+		Image backgroundImage = new Image(" ");
 		ImageView backgroundImageView = new ImageView(backgroundImage);
 		backgroundImageView.fitWidthProperty().bind(primaryStage.widthProperty());
 		backgroundImageView.fitHeightProperty().bind(primaryStage.heightProperty());

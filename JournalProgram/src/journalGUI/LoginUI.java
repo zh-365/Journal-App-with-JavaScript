@@ -18,7 +18,7 @@ public class LoginUI extends Application {
 	
 	public void start(Stage primaryStage) {
 		// Setting the background of login page
-		Image backgroundImage = new Image("file:/C:/Users/zoele/Downloads/library.jpg");
+		Image backgroundImage = new Image(" ");
 		ImageView backgroundImageView = new ImageView(backgroundImage);
 		backgroundImageView.fitWidthProperty().bind(primaryStage.widthProperty());
 		backgroundImageView.fitHeightProperty().bind(primaryStage.heightProperty());
